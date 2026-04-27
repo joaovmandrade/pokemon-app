@@ -55,9 +55,9 @@ src/
 
 O app terá três abas principais:
 
-* 📋 Lista de Pokémons
-* 🗺️ Mapa com localização e pins
-* ⭐ Favoritos com persistência local
+* Lista de Pokémons
+* Mapa com localização e pins
+* Favoritos com persistência local
 
 ---
 
@@ -72,9 +72,7 @@ O app terá três abas principais:
 
 ## ⚠️ Status do Projeto
 
-🚧 Em desenvolvimento
-
-Funcionalidades serão implementadas nas próximas etapas.
+Finalizado
 
 ---
 
@@ -83,17 +81,6 @@ Funcionalidades serão implementadas nas próximas etapas.
 ```bash
 npm install
 npx expo start
-```
-
----
-
-## 📌 Próximos Passos
-
-* [ ] Implementar navegação por abas
-* [ ] Desenvolver listagem de Pokémons
-* [ ] Implementar favoritos com persistência
-* [ ] Criar tela de mapa com localização
-* [ ] Adicionar filtros e busca
 
 ---
 
