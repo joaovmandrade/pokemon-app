@@ -316,9 +316,9 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 14,
   },
-  // ── FILTROS CORRIGIDOS ──────────────────────────────────────────
+
   filterRow: {
-    flexGrow: 0, // impede que o FlatList horizontal tome altura extra
+    flexGrow: 0,
     flexShrink: 0,
     marginBottom: 10,
   },
@@ -326,7 +326,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 4,
     gap: 8,
-    alignItems: "center", // centraliza verticalmente os chips
+    alignItems: "center",
   },
   filterChip: {
     paddingHorizontal: 16,
@@ -335,7 +335,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#1A1A2E",
     borderWidth: 1,
     borderColor: "rgba(255,255,255,0.08)",
-    // sem width fixo → o chip cresce conforme o texto
   },
   filterChipActive: {
     backgroundColor: "#FF4D6D",
@@ -345,12 +344,11 @@ const styles = StyleSheet.create({
     color: "#888",
     fontSize: 12,
     fontWeight: "600",
-    // sem numberOfLines → sem truncamento
   },
   filterChipTextActive: {
     color: "#fff",
   },
-  // ────────────────────────────────────────────────────────────────
+  
   listContent: {
     paddingHorizontal: 16,
     paddingBottom: 16,
