@@ -1,12 +1,5 @@
 import React, { memo } from "react"
-import {
-  View,
-  Text,
-  Image,
-  TouchableOpacity,
-  StyleSheet,
-  Dimensions,
-} from "react-native"
+import { View, Text, Image, TouchableOpacity, StyleSheet, Dimensions } from "react-native"
 import { Ionicons } from "@expo/vector-icons"
 import { PokemonDetail } from "../services/pokeApi"
 import {
